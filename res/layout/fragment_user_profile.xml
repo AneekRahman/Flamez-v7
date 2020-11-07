@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flamez.app.UserProfileFragment"
+    android:orientation="vertical"
+    android:background="@color/layoutBgColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/dp_example"
+        android:scaleType="centerCrop"
+        android:id="@+id/uprofile_cover"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/layoutBgColor"
+        android:id="@+id/uprofile_tilted_view"
+        android:layout_marginTop="-15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-65dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/dp_example"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/uprofile_dp_stroke"
+                android:id="@+id/uprofile_dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
